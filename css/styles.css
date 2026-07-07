@@ -73,8 +73,8 @@ main{
 .hero-image{
     width:100%;
     height:100%;
-    object-fit:cover;      /* Change to 'contain' if you don't want cropping */
-    display:block;
+    object-fit:contain;      /* Change to 'contain' if you don't want cropping */
+    background:#fff;
 }
 
 /* ===========================
